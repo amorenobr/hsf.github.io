@@ -28,11 +28,6 @@ The group aims to develop a training program that can be pursued by researchers 
 </div>
 
 
-## News
-
-<a class="twitter-timeline" style="margin: auto" data-width="100%" data-height="500" href="https://twitter.com/HSFTraining?ref_src=twsrc%5Etfw">Tweets from @HSFTraining</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
 ## Our mission
 
 <img src="{{site.baseurl}}/images/training/instructor_mentor_small.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;">
@@ -146,17 +141,18 @@ We are always looking for volunteers from the community to help us with our trai
 {% endif %}
 ## Conveners
 
-- Wouter Deconinck (EIC, University of Manitoba)
-- Kilian Lieret (IRIS-HEP, Princeton University)
-- Michel Hernandez Villanueva (Belle II, DESY)
-- Sudhir Malik (CMS, University of Puerto Rico)
-
-The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de). <!-- markdown-link-check-disable-line -->
-
-{% assign persons = "Kilian Lieret, Sudhir Malik, Michel Hernandez Villanueva, Wouter Deconinck" | split: ", " %}
+{% assign persons = "Alexander Moreno Briceño, Valeriia Lukashenko, Jim Pivarski, Holly Szumila" | split: ", " %}
 {% include list_of_selected_profiles.html %}
+
+The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valeriia.lukashenko@cern.ch,pivarski@princeton.edu,hszumila@jlab.org). <!-- markdown-link-check-disable-line -->
+
 ### Former Conveners:
 
+- Sudhir Malik (CMS, University of Puerto Rico), 2018-2022
+- Michel Hernandez Villanueva (Belle II, DESY), 2022
 - Dario Menasce (INFN Milano), 2016-2019
 - Sam Meehan (CERN, ATLAS and FASER), 2020
 - Meirin Oan Evans (ATLAS), 2021
+- Wouter Deconinck
+- Kilian Lieret
+- Jason Veatch

@@ -1,3 +1,24 @@
+- description: 'From python, shell, and git to reproducible analyses with Snakemake. Written for LHCb, but applicable to everyone.'
+  webpage: https://hsf-training.github.io/analysis-essentials/
+  name: "LHCb Analysis Essentials"
+  repository: https://github.com/hsf-training/analysis-essentials/
+  id: lhcb-analysis-essentials
+  videos: ''
+  status: stable
+- description: 'Learn about ROOT, RooFit, machine learning with TMVA, and physics simulations.'
+  webpage: https://gitlab.com/stroche/particle-physics-methods
+  name: "Particle physics methods"
+  repository: https://gitlab.com/stroche/particle-physics-methods
+  id: root-analysis
+  videos: ''
+  status: beta
+- description: 'This course covers various best practices like testing, pytest, object oriented programming, packing, CI, and more.'
+  name: "Software Engineering for Scientific Computing"
+  repository: https://github.com/henryiii/se-for-sci
+  status: stable
+  videos: ''
+  webpage: https://henryiii.github.io/se-for-sci/
+  id: se-for-sci
 - description: 'Track code changes, undo mistakes, collaborate. This module is a must.'
   name: Version controlling with git
   repository: https://github.com/swcarpentry/git-novice
@@ -33,13 +54,6 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cmake-webpage/
   id: cmake
-- description: ''
-  name: Distributed file systems and grid computing
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: grid
 - description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
   repository: 'https://github.com/root-project/software-carpentry'
@@ -76,13 +90,6 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
   id: matplotlib
-- description: ''
-  name: Parallel programming
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: parallel
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Docker
@@ -91,13 +98,6 @@
   videos: https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj
   webpage: https://hsf-training.github.io/hsf-training-docker/index.html
   id: docker
-- description: E.g. <code>yadage</code> and <code>reana</code>
-  name: Workflows &amp; reproducibility
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: yadagereana
 - description: 'Get behind the buzzword and teach machines to work for you intelligently!'
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
@@ -128,28 +128,6 @@
   videos: https://www.youtube.com/watch?v=-Xd5D6xKugk&list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
   id: cicdgithub
-- description: <code>sphinx</code>, <code>doxygen</code>, etc.
-  name: Documentation
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: doc
-- description: <code>pythia</code>, <code>sherpa</code>, <code>madgraph</code>, etc.
-  name: Event generation and MC
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: generators
-- description: <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a>
-    is a header-only C++ abstraction library for accelerator development.
-  name: alpaka
-  repository: https://github.com/hsf-training/hsf-training-alpaka-webpage
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: alpaka
 - description: Introduction to the <a href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell (SSH)</a>
   name: SSH
   repository: https://github.com/hsf-training/hsf-training-ssh-webpage/
@@ -173,7 +151,7 @@
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
 - description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
-  status: beta
+  status: stable
   videos: 'https://www.youtube.com/watch?v=g0cCErlveiI&list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF'
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
@@ -192,3 +170,17 @@
   videos: ''
   webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
   repository: https://github.com/henryiii/level-up-your-python
+- description: Run containerised data analysis pipelines on remote compute clouds.
+  id: reana
+  name: Reproducible analyses with REANA
+  status: stable
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
+  repository: https://github.com/hsf-training/hsf-training-reana-webpage
+- description: An introduction to Julia for HEP, especially for those familiar with Python (or C++)
+  name: Julia
+  status: stable
+  videos: ''
+  webpage: https://juliahep.github.io/JuliaHEP-2023/intro.html
+  repository: https://github.com/JuliaHEP/JuliaHEP-2023
+  id: julia

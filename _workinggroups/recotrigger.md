@@ -25,15 +25,19 @@ of profiling and quality assurance toolkits.
 ## Get involved
 
 Current WG conveners:
+- Christina Agapopoulou (LHCb, CERN)
+- Claire Antel (ATLAS/FASER, Uni Geneva)
+- Joe Osborn (sPHENIX/ePIC, Brookhaven National Laboratory)
 
-- Andreas Salzburger (ATLAS, CERN)
-- Jin Huang (sPHENIX/EIC, BNL)
-- Dorothea vom Bruch (LHCb, CPPM)
 
-[Contact the group conveners](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,jhuang@bnl.gov) by email. <!-- markdown-link-check-disable-line -->
+[Contact the group conveners](mailto:christina.agapopoulou@cern.ch,claire.antel@cern.ch,josborn1@bnl.gov) by email. <!-- markdown-link-check-disable-line -->
 
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings. For more information, contact us or
 follow our mailing list on google groups [hsf-recotrigger](https://groups.google.com/forum/#!forum/hsf-recotrigger).
+
+## Recent activities
+
+- 2023 Kick-Off Meeting (including recording): [indico link](https://indico.cern.ch/event/1273894/)
 
 ## Group activities
 
@@ -45,7 +49,10 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 [Mandate and link to other HSF working groups]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 ## Former Conveners
-
+- Giulia Casarosa (Belle II, Universita di Pisa), 2022-2023
+- Andreas Salzburger (ATLAS, CERN), 2021-2022
+- Jin Huang (sPHENIX/EIC, BNL), 2021-2022
+- Dorothea vom Bruch (LHCb, CPPM), 2021-2022
 - Caterina Doglioni (ATLAS), 2019-2020
 - Agnieszka Dziurda (LHCb), 2019-2020
 - David Lange (CMS), 2019-2021

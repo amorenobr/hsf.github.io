@@ -4,7 +4,13 @@
       "pattern": "/assets/CWP-Charge-HSF.pdf"
     },
     {
-        "pattern": "mailto:.*"
+      "pattern": "mailto:.*"
+    },
+    {
+      "pattern": "https://twitter.com/PyHEPConf"
+    },
+    {
+      "pattern": "https://ariostas.com"
     }
   ],
   "replacementPatterns": [
@@ -23,4 +29,3 @@
   "fallbackRetryDelay": "30s",
   "aliveStatusCodes": [200, 206]
 }
-
